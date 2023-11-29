@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Planning</title>
+</head>
+
+<body>
+    <h1>Plan an Party!</h1>
+
+    <form id="myForm" name="myForm" onsubmit="return validateForm()" method="post">
+        Event Name: <input type="text" name="fname">
+        Date: <input type="date" name="fdate">
+        Location: <input type="text" name="flocation">
+        Description: <input type="text" name="fdescription">
+        <input type="submit" value="Add PArty">
+    </form>
+    <script src="./party.js"></script>
+</body>
+
+</html>
